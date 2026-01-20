@@ -256,16 +256,11 @@ span img{
 }
 .text{
     color:#ffffff80;
-    
-   
-
-
-    
-   
+ 
 }
 .about-ratings{
     max-width:1200px;
-    height:95px;
+    min-height:95px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -273,35 +268,10 @@ span img{
     margin-top:50px;
     
 }
-.ratings{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-  
-}
-.visitors{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:80px;
 
-}
-.industry{
-    margin-left:80px;
-}
 
 .green{
     color:#00FF88;
-}
-.visitors p{
-   max-width:240px;
-   height:20px;
-   margin-top:16px;
-}
-.ratings p{
-    max-width:240px;
-    height:20px;
-    margin-top:16px;
 }
 .techwave-section>h1{
     color:#ffffff;
@@ -543,7 +513,7 @@ span img{
 .footer-banner{
     background-image:url('/assets/footer-bg.png');
     width:100%;
-    min-height:100vh%;
+    min-height:100%;
     background-size:cover;
     background-position:center;
     display:flex;
@@ -577,17 +547,6 @@ span img{
 .footer-text{
     margin-top:32px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -650,32 +609,17 @@ span img{
 
 }
 .about-ratings{
-    width:100%;
-    height:auto;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    flex-wrap:wrap;
-    margin-top:20px;
-}
-.visitors{
-    width:400px;
-    height:102px;
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-   
-}
-.ratings{
-    width:100%;
-    height:auto;
+    max-width:400px;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    
+    gap:20px;
+    margin:auto;
+}
+.green{
+    margin-bottom:10px;
 }
 .techwave-resources{
    display:grid;
@@ -742,7 +686,7 @@ span img{
 .footer-banner{
     background-image: url('/assets/footer-bg.png');
     width:100%;
-    min-height:100vh%;
+    min-height:100%;
     padding:40px 0;
     display:flex;
     flex-direction:column;
@@ -758,16 +702,17 @@ span img{
     flex-direction:row;
     justify-content:space-between;
     gap:15px;
-    margin-top:60px;
-
+    margin:auto;
+    margin-top:70px;
+}
+.footer-social>img{
+    width:45%;
+    max-width:140px;
+    height:auto;
+    object-fit :contain;
 }
 
-
-
 }
-
-
-
 
     
 
