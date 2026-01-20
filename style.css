@@ -213,13 +213,25 @@ span img{
     font-weight:600;
    text-align:center; 
    gap:8px;
+   transition:all 0.3s ease;
   
 }
 .btn-3>img{
     width:20px;
     height:20px;
+    transition:transform o.3s ease;
     
 }
+.btn-3:hover{
+    background:#C800FF;
+    color:#fff;
+    box-shadow:0 0 20px rgba(0,255,136,0.9);
+    transform:translateY(-3px);
+}
+.btn-3:hover img{
+    transform:translateX(6px);
+}
+
 .about-section{
     width:100%;
     background-color:#1A0B2E;
@@ -547,7 +559,6 @@ span img{
 .footer-text{
     margin-top:32px;
 }
-
 
 
 @media screen and (max-width:576px){
